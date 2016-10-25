@@ -48,6 +48,7 @@ hr.small {
   z-index: 3;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
 .navbar-custom .navbar-brand {
   font-weight: 800;
 }
@@ -56,6 +57,9 @@ hr.small {
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 1px;
+}
+.active-tab{
+  color: #00ff00;
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
