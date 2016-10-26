@@ -59,10 +59,6 @@ hr.small {
   letter-spacing: 1px;
 }
 
-.active-tab {
-  color: #00ff00 !important;
-  font-size: 16px;
-}
 
 @media only screen and (min-width: 768px) {
   .navbar-custom {
@@ -393,4 +389,10 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #0085a1;
+}
+
+.active-tab {
+  color: #fff !important;
+  font-size: 13px !important;
+  background-color: #F97700 !important;
 }
