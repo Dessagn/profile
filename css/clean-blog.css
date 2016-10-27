@@ -396,3 +396,12 @@ body {
   font-size: 13px !important;
   background-color: #F97700 !important;
 }
+
+.short{
+  width: 30%;
+  float: left;
+}
+
+.meta-post{
+  float: left;
+}
