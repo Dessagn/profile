@@ -3,7 +3,7 @@ layout: post
 title: "Dawn of the new age"
 description: "This is a detailed and scientific explanation of Dawn on the new age as found out by experiment ..."
 author: "Kello"
-img: "amazing-bg.jpg"
+img: "space-bg.jpg"
 ---
 
 #Dawn of the new age
