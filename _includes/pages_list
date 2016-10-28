@@ -2,11 +2,11 @@
 	{% if group == null or group == node.group %}
 		{% if page.url == node.url %}
 			<li>
-                <a href="{{ node.url }}" class="active-tab">{{ node.title }}</a>
+                <a href="{{ node.url }}" class="active-tab">{{ node.menu }}</a>
             </li>
 		{% else %}
 			<li>
-                <a href="{{ node.url }}"">{{ node.title }}</a>
+                <a href="{{ node.url }}"">{{ node.menu }}</a>
             </li>
 		{% endif %}
 	{% endif %}

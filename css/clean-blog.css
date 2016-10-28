@@ -51,6 +51,8 @@ hr.small {
 
 .navbar-custom .navbar-brand {
   font-weight: 800;
+  font-size: 40px;
+  font-family: 'Monoton', 'Lora' !important;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
@@ -67,7 +69,7 @@ hr.small {
   }
   .navbar-custom .navbar-brand {
     color: white;
-    padding: 20px;
+    padding: 30px 0 0 60px;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
@@ -75,11 +77,11 @@ hr.small {
   }
   .navbar-custom .nav li a {
     color: white;
-    padding: 20px;
+    padding: 20px 15px 15px 15px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255);
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -142,7 +144,7 @@ hr.small {
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
-  padding: 100px 0 50px;
+  padding: 60px 0 50px;
   color: white;
 }
 @media only screen and (min-width: 768px) {
@@ -163,7 +165,7 @@ hr.small {
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.1,
 			display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -173,11 +175,11 @@ hr.small {
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 60px;
   }
 }
 .intro-header .post-heading h1 {
-  font-size: 35px;
+  font-size: 24px;
 }
 .intro-header .post-heading .subheading,
 .intro-header .post-heading .meta {
@@ -391,10 +393,15 @@ body {
   webkit-tap-highlight-color: #0085a1;
 }
 
-.active-tab {
-  color: #fff !important;
-  font-size: 13px !important;
-  background-color: #F97700 !important;
+.active-tab{
+  color: #FFF !important;
+  font-size: 14px !important;
+  background-color: #F97700; opacity: 1 !important;
+}
+.navbar-right li:hover{
+  background-color: #F97700; opacity: 0.9 !important;
+  color: #FFF !important;
+  font-size: 16px !important;
 }
 
 .short{
@@ -404,4 +411,8 @@ body {
 
 .meta-post{
   float: left;
+}
+
+.navbar-right{
+  margin-right: 20px !important;
 }
