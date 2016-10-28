@@ -273,6 +273,8 @@ footer .copyright {
   font-size: 14px;
   text-align: center;
   margin-bottom: 0;
+  color: #000;
+  padding-bottom: 5px;
 }
 .floating-label-form-group {
   font-size: 14px;
@@ -393,20 +395,22 @@ body {
   webkit-tap-highlight-color: #0085a1;
 }
 
-.active-tab{
-  color: #FFF !important;
-  font-size: 14px !important;
-  background-color: #F97700; opacity: 1 !important;
-}
 .navbar-right li:hover{
   background-color: #F97700; opacity: 0.9 !important;
   color: #FFF !important;
   font-size: 16px !important;
 }
 
-.short{
+.active-tab{
+  color: #FFF !important;
+  font-size: 14px !important;
+  background-color: #F97700; opacity: 1 !important;
+}
+
+
+hr.short{
   width: 30%;
-  float: left;
+  color: #000;
 }
 
 .meta-post{
@@ -415,4 +419,13 @@ body {
 
 .navbar-right{
   margin-right: 20px !important;
+}
+
+.pull-right{
+  margin-right: 20px;
+  width: 200px;
+  border-radius: 5px;
+}
+footer{
+  background-color: #f0f0f0;
 }

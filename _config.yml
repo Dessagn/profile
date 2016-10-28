@@ -1,2 +1,5 @@
 highlighter: rouge
 encoding: utf-8
+
+paginate: 3
+gems: [jekyll-paginate]
