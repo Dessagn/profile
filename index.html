@@ -8,6 +8,7 @@ order: 1
 ---
 <!-- Main Content -->
 <div class="container">
+
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             {% for post in paginator.posts %}
@@ -29,11 +30,11 @@ order: 1
             <ul class="pager">
                 {% if paginator.previous_page %}
                 <li class="previous">
-                    <a href="{{ paginator.previous_page_path | prepend: site.url | replace: '//', '/' }}"> &larr; Earlier Posts</a>
+                    <a href="{{ paginator.previous_page_path | replace: '//', '/' }}"> &larr; Previous</a>
                 </li>
                 {% endif %} {% if paginator.next_page %}
                 <li class="next">
-                    <a href="{{ paginator.next_page_path | prepend: site.url | replace: '//', '/' }}">Older Posts &rarr;</a>
+                    <a href="{{ paginator.next_page_path | replace: '//', '/' }}">Next &rarr;</a>
                 </li>
                 {% endif %}
             </ul>
@@ -41,3 +42,4 @@ order: 1
         </div>
     </div>
 </div>
+<br>
