@@ -17,7 +17,7 @@
     {% endif %}
     
     {% if page.img %}
-    <meta property="og:image" content="{{ page.img | prepend: site.url | replace: 'site.url', '/site.url' }}" />
+    <meta property="og:image" content="{{ site.url }}/{{ page.img}}" />
     {% endif %}
     <title>{{ page.navTitle }}</title>
 
@@ -60,6 +60,7 @@
                         <aside class="sharing">
                             <div class="g-plusone" data-annotation="inline" data-width="300"></div>
                         </aside>
+
                     </div>
                 </div>
             </div>
