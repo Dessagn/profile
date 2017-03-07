@@ -3,3 +3,4 @@ encoding: utf-8
 
 paginate: 3
 gems: [jekyll-paginate, jekyll-sitemap]
+theme: jekyll-theme-architect
